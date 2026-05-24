@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17110c"/><stop offset="0.5" stop-color="#5b3420"/><stop offset="1" stop-color="#c87936"/></linearGradient><linearGradient id="concrete" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b8a58d"/><stop offset="1" stop-color="#5d4d3f"/></linearGradient></defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <circle cx="188" cy="140" r="220" fill="#f5bd72" opacity="0.18"/>
+  <g transform="translate(115 120)">
+    <path d="M155 430 L560 250 L980 430 L560 610Z" fill="#22170f" opacity="0.75"/>
+    <path d="M220 408 L560 262 L915 408 L560 548Z" fill="url(#concrete)" opacity="0.86"/>
+    <path d="M285 410 L560 300 L850 410 L560 520Z" fill="#322016"/>
+    <g stroke="#d99c55" stroke-width="10" stroke-linecap="round" opacity="0.9">
+      <path d="M255 410 L560 282 L885 410"/><path d="M300 450 L560 336 L835 450"/><path d="M370 488 L560 405 L760 488"/>
+    </g>
+    <g stroke="#1b120c" stroke-width="7" opacity="0.8"><path d="M560 282 V548"/><path d="M255 410 L560 548 L885 410"/></g>
+  </g>
+  <path d="M870 120 H1030 M950 120 V455 M900 455 H1004" stroke="#f7d09a" stroke-width="18" stroke-linecap="round" opacity="0.55"/>
+</svg>
