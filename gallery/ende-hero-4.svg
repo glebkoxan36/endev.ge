@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17110c"/><stop offset="0.5" stop-color="#4a2d1b"/><stop offset="1" stop-color="#b66f36"/></linearGradient><linearGradient id="roof" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4e1511"/><stop offset="1" stop-color="#d48b4f"/></linearGradient></defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <circle cx="910" cy="180" r="230" fill="#eab66f" opacity="0.22"/>
+  <g transform="translate(180 168)">
+    <path d="M145 380 H825 V580 H145Z" fill="#d7b887"/>
+    <path d="M70 380 L485 140 L910 380 L820 430 L485 246 L160 430Z" fill="url(#roof)"/>
+    <path d="M170 425 H315 V580 H170Z" fill="#2a1b10" opacity="0.88"/>
+    <path d="M450 432 H558 V510 H450Z" fill="#1d2c2a" opacity="0.82"/><path d="M640 432 H748 V510 H640Z" fill="#1d2c2a" opacity="0.82"/>
+    <g stroke="#f5d4a6" stroke-width="6" opacity="0.35"><path d="M140 382 L485 188 L835 382"/><path d="M485 188 V246"/></g>
+  </g>
+  <path d="M0 620 C230 570 430 635 650 574 C820 526 990 525 1200 480 V760 H0Z" fill="#14100b" opacity="0.72"/>
+</svg>
