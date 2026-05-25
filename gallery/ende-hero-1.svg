@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3b2618"/><stop offset="0.55" stop-color="#7c4a25"/><stop offset="1" stop-color="#f0b36a"/></linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffecd0"/><stop offset="1" stop-color="#b8753b"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000" flood-opacity="0.35"/></filter>
+  </defs>
+  <rect width="1200" height="760" fill="url(#sky)"/>
+  <circle cx="920" cy="120" r="190" fill="#f7c778" opacity="0.35"/>
+  <path d="M0 560 C210 500 350 530 540 485 C730 440 920 460 1200 390 L1200 760 L0 760Z" fill="#21150e" opacity="0.78"/>
+  <g filter="url(#shadow)">
+    <path d="M238 455 L588 278 L948 455 L948 612 L238 612Z" fill="#7d4b2c"/>
+    <path d="M178 455 L588 215 L1016 455 L940 485 L588 286 L250 485Z" fill="#2b1810"/>
+    <path d="M302 486 H472 V612 H302Z" fill="url(#wall)"/>
+    <path d="M522 486 H840 V612 H522Z" fill="#e8d0ad" opacity="0.92"/>
+    <path d="M350 517 H416 V612 H350Z" fill="#2b1810" opacity="0.72"/>
+    <path d="M575 518 H642 V572 H575Z" fill="#1d2a2a" opacity="0.82"/>
+    <path d="M695 518 H762 V572 H695Z" fill="#1d2a2a" opacity="0.82"/>
+    <path d="M220 612 H966 V640 H220Z" fill="#a06434"/>
+  </g>
+  <g opacity="0.32" stroke="#ffeed1" stroke-width="2">
+    <path d="M135 650 H1070"/><path d="M210 690 H980"/><path d="M390 260 V640"/><path d="M790 260 V640"/>
+  </g>
+</svg>
